@@ -1,0 +1,3 @@
+C:/Users/anilz/workdir/cpp-course/03-vectors/cmake-build-debug/CMakeFiles/03_vectors.dir
+C:/Users/anilz/workdir/cpp-course/03-vectors/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/anilz/workdir/cpp-course/03-vectors/cmake-build-debug/CMakeFiles/rebuild_cache.dir
