@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/anilz/workdir/cpp-course/19-overloading-assignment-copy/Mystring.h
+
+C:/Users/anilz/workdir/cpp-course/19-overloading-assignment-copy/main.cpp
+Mystring.h
+C:/Users/anilz/workdir/cpp-course/19-overloading-assignment-copy/Mystring.h
+

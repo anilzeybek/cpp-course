@@ -1,0 +1,3 @@
+C:/Users/anilz/workdir/cpp-course/15-deep-copy/cmake-build-debug/CMakeFiles/15_deep_copy.dir
+C:/Users/anilz/workdir/cpp-course/15-deep-copy/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/anilz/workdir/cpp-course/15-deep-copy/cmake-build-debug/CMakeFiles/rebuild_cache.dir

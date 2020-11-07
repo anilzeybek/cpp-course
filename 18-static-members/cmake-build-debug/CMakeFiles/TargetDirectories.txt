@@ -1,0 +1,3 @@
+C:/Users/anilz/workdir/cpp-course/18-static-members/cmake-build-debug/CMakeFiles/18_static_members.dir
+C:/Users/anilz/workdir/cpp-course/18-static-members/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/anilz/workdir/cpp-course/18-static-members/cmake-build-debug/CMakeFiles/rebuild_cache.dir

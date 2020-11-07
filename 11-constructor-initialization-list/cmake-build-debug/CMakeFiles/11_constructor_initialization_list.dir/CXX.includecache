@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/anilz/workdir/cpp-course/11-constructor-initialization-list/Player.cpp
+Player.h
+C:/Users/anilz/workdir/cpp-course/11-constructor-initialization-list/Player.h
+iostream
+-
+string
+-
+
+C:/Users/anilz/workdir/cpp-course/11-constructor-initialization-list/Player.h
+iostream
+-
+string
+-
+
+C:/Users/anilz/workdir/cpp-course/11-constructor-initialization-list/main.cpp
+Player.h
+C:/Users/anilz/workdir/cpp-course/11-constructor-initialization-list/Player.h
+

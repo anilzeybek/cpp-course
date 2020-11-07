@@ -5,7 +5,9 @@ void print_array(const int arr[], size_t size);
 
 void set_array(int arr[], size_t size, int value);
 
-void print_array(const int arr[], size_t size) {  // const makes it produce error if we try to change
+// const makes it produce error if we try to change
+// because arrays are passed by reference, since its only a memory location actually
+void print_array(const int arr[], size_t size) {
     for (size_t i{0}; i < size; ++i)
         std::cout << arr[i] << " ";
     std::cout << std::endl;
@@ -13,6 +15,7 @@ void print_array(const int arr[], size_t size) {  // const makes it produce erro
 }
 
 // set each array element to value
+// we also have to send the size info, otherwise we can't iterate
 void set_array(int arr[], size_t size, int value) {
     for (size_t i{0}; i < size; ++i)
         arr[i] = value;

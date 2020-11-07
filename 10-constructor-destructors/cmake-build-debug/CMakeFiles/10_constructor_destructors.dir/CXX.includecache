@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/anilz/workdir/cpp-course/10-constructor-destructors/Player.cpp
+Player.h
+C:/Users/anilz/workdir/cpp-course/10-constructor-destructors/Player.h
+iostream
+-
+string
+-
+
+C:/Users/anilz/workdir/cpp-course/10-constructor-destructors/Player.h
+iostream
+-
+string
+-
+
+C:/Users/anilz/workdir/cpp-course/10-constructor-destructors/main.cpp
+string
+-
+Player.h
+C:/Users/anilz/workdir/cpp-course/10-constructor-destructors/Player.h
+

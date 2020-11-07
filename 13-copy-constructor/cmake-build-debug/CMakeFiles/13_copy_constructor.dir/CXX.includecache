@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/anilz/workdir/cpp-course/13-copy-constructor/Player.cpp
+Player.h
+C:/Users/anilz/workdir/cpp-course/13-copy-constructor/Player.h
+iostream
+-
+string
+-
+
+C:/Users/anilz/workdir/cpp-course/13-copy-constructor/Player.h
+iostream
+-
+string
+-
+
+C:/Users/anilz/workdir/cpp-course/13-copy-constructor/main.cpp
+Player.h
+C:/Users/anilz/workdir/cpp-course/13-copy-constructor/Player.h
+iostream
+-
+

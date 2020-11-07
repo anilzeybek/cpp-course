@@ -1,0 +1,3 @@
+C:/Users/anilz/workdir/cpp-course/06-dynamic-memory/cmake-build-debug/CMakeFiles/06_dynamic_memory.dir
+C:/Users/anilz/workdir/cpp-course/06-dynamic-memory/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/anilz/workdir/cpp-course/06-dynamic-memory/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/anilz/workdir/cpp-course/09-header-file/Account.cpp
+Account.h
+C:/Users/anilz/workdir/cpp-course/09-header-file/Account.h
+
+C:/Users/anilz/workdir/cpp-course/09-header-file/Account.h
+string
+-
+
+C:/Users/anilz/workdir/cpp-course/09-header-file/main.cpp
+iostream
+-
+Account.h
+C:/Users/anilz/workdir/cpp-course/09-header-file/Account.h
+
