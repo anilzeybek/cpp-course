@@ -1,3 +1,0 @@
-C:/Users/anilz/workdir/cpp-course/07-passing-pointers/cmake-build-debug/CMakeFiles/07_passing_pointers.dir
-C:/Users/anilz/workdir/cpp-course/07-passing-pointers/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/anilz/workdir/cpp-course/07-passing-pointers/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,3 +1,0 @@
-C:/Users/anilz/workdir/cpp-course/23-overloading-stream-insertion-extraction/cmake-build-debug/CMakeFiles/23_overloading_stream_insertion_extraction.dir
-C:/Users/anilz/workdir/cpp-course/23-overloading-stream-insertion-extraction/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/anilz/workdir/cpp-course/23-overloading-stream-insertion-extraction/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,3 +1,0 @@
-C:/Users/anilz/workdir/cpp-course/20-overloading-assignment-move/cmake-build-debug/CMakeFiles/20_overloading_assignment_move.dir
-C:/Users/anilz/workdir/cpp-course/20-overloading-assignment-move/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/anilz/workdir/cpp-course/20-overloading-assignment-move/cmake-build-debug/CMakeFiles/rebuild_cache.dir

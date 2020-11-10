@@ -1,3 +1,0 @@
-C:/Users/anilz/workdir/cpp-course/09-header-file/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/anilz/workdir/cpp-course/09-header-file/cmake-build-debug/CMakeFiles/09_header_file.dir
-C:/Users/anilz/workdir/cpp-course/09-header-file/cmake-build-debug/CMakeFiles/edit_cache.dir

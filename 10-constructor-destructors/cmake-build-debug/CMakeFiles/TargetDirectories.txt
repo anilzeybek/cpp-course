@@ -1,3 +1,0 @@
-C:/Users/anilz/workdir/cpp-course/10-constructor-destructors/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/anilz/workdir/cpp-course/10-constructor-destructors/cmake-build-debug/CMakeFiles/10_constructor_destructors.dir
-C:/Users/anilz/workdir/cpp-course/10-constructor-destructors/cmake-build-debug/CMakeFiles/rebuild_cache.dir

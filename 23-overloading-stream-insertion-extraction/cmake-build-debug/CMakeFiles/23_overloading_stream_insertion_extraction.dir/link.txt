@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\23_overloading_stream_insertion_extraction.dir/objects.a
-C:\PROGRA~1\MINGW-~1\mingw64\bin\ar.exe cr CMakeFiles\23_overloading_stream_insertion_extraction.dir/objects.a @CMakeFiles\23_overloading_stream_insertion_extraction.dir\objects1.rsp
-C:\PROGRA~1\MINGW-~1\mingw64\bin\G__~1.EXE -g   -Wl,--whole-archive CMakeFiles\23_overloading_stream_insertion_extraction.dir/objects.a -Wl,--no-whole-archive  -o 23_overloading_stream_insertion_extraction.exe -Wl,--out-implib,lib23_overloading_stream_insertion_extraction.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\23_overloading_stream_insertion_extraction.dir\linklibs.rsp
