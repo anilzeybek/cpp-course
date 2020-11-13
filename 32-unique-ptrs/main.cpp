@@ -15,6 +15,7 @@ public:
     int get_data() const { return data; }
 };
 
+// ALL SMART POINTERS ARE INITIALIZED TO NULLPTR, NOT TO A GARBAGE MEMORY AREA LIKE RAW POINTERS
 int main() {
     // This is default way to create pointers, but they require deleting after using
     // Or there would be a memory leak!
