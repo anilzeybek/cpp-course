@@ -1,8 +1,14 @@
 #include <string>
 #include "Player.h"
+#include "Test.h"
 
 
 int main() {
+    {
+        // Using default constructor and destructor
+        Test test;
+    }
+
     {
         Player slayer;
         slayer.set_name("Slayer");
