@@ -1,0 +1,3 @@
+Anil 22 3.50
+Deniz 17 90.5
+Zeynep 22 3.65
