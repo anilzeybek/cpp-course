@@ -63,7 +63,7 @@ int main() {
 
     // i here must be reference object because otherwise we would be call the copy constructor
     // which doesn't exist for unique pointers
-    for (const auto &i : unique_ptr_vector)
+    for (const auto &i: unique_ptr_vector)
         std::cout << i->get_data() << std::endl;
 
 

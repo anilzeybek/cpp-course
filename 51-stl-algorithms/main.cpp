@@ -8,8 +8,9 @@ class Person {
     std::string name;
     int age;
 
-   public:
+public:
     Person() = default;
+
     Person(std::string name, int age) : name{name}, age{age} {}
 
     bool operator<(const Person &rhs) const { return this->age < rhs.age; }
@@ -30,7 +31,9 @@ void find_test() {
     else
         std::cout << "Couldn't find the number" << std::endl;
 
-    std::list<Person> players{{"Anil", 22}, {"Deniz", 17}, {"Hasan", 51}};
+    std::list<Person> players{{"Anil",  22},
+                              {"Deniz", 17},
+                              {"Hasan", 51}};
     auto loc2 = std::find(players.begin(), players.end(), Person{"Deniz", 17});
 
     if (loc2 != players.end())
@@ -54,7 +57,7 @@ void count_if_test() {
 
     // This method counts the ones that return true in given func
     int evenNumbers =
-        std::count_if(vec.begin(), vec.end(), [](int x) { return x % 2 == 0; });
+            std::count_if(vec.begin(), vec.end(), [](int x) { return x % 2 == 0; });
 
     std::cout << evenNumbers << " even numbers found" << std::endl;
 }
@@ -65,7 +68,7 @@ void replace_test() {
 
     // This method replaces given number with other number
     std::replace(vec.begin(), vec.end(), 4, 400);
-    for (int i : vec) std::cout << i << " ";
+    for (int i: vec) std::cout << i << " ";
     std::cout << std::endl;
 }
 

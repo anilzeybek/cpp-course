@@ -17,13 +17,13 @@ std::ostream &operator<<(std::ostream &os, const Person &p) {
 
 // This method's arguments can be anything like int, float, char,
 // Or any type that supports operator "<"
-template <typename T>
+template<typename T>
 T min(T a, T b) {
     return a < b ? a : b;
 }
 
 // This method takes 2 types and prints them
-template <typename T1, typename T2>
+template<typename T1, typename T2>
 void func(T1 arg1, T2 arg2) {
     std::cout << arg1 << " " << arg2 << std::endl;
 }

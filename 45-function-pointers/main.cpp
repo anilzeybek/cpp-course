@@ -9,7 +9,7 @@ void printValue(int value) { std::cout << value << std::endl; }
 
 // Second arg of this function is a function that takes an int and returns void
 void forEach(const std::vector<int> &values, void (*func)(int)) {
-    for (int value : values) func(value);
+    for (int value: values) func(value);
 }
 
 int main() {

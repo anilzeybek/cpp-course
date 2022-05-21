@@ -3,28 +3,29 @@
 
 // Now, user can specify the size of array
 // We don't need to use typename always in templates
-template <typename T, int N>
+template<typename T, int N>
 class Array {
     int size{N};
     T values[N];
 
     friend std::ostream &operator<<(std::ostream &os, const Array<T, N> &arr) {
         os << "[";
-        for (const auto &val : arr.values) os << val << " ";
+        for (const auto &val: arr.values) os << val << " ";
         os << "]" << std::endl;
 
         return os;
     }
 
-   public:
+public:
     // This makes it the default constructor
     Array() = default;
+
     Array(T init_val) {
-        for (auto &item : values) item = init_val;
+        for (auto &item: values) item = init_val;
     }
 
     void fill(T val) {
-        for (auto &item : values) item = val;
+        for (auto &item: values) item = val;
     }
 
     int get_size() const { return size; }

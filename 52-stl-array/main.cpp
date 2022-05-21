@@ -5,7 +5,7 @@
 
 void display_array(const std::array<int, 5> &arr) {
     std::cout << "[ ";
-    for (const auto &i : arr) std::cout << i << " ";
+    for (const auto &i: arr) std::cout << i << " ";
     std::cout << "]" << std::endl;
 }
 
@@ -58,7 +58,7 @@ void test4() {
     std::array<int, 5> arr{4, 2, 5, 1, 3};
 
     std::array<int, 5>::iterator min_num =
-        std::min_element(arr.begin(), arr.end());
+            std::min_element(arr.begin(), arr.end());
     auto max_num = std::max_element(arr.begin(), arr.end());
 
     std::cout << "min: " << *min_num << ", max: " << *max_num << std::endl;

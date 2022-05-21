@@ -6,7 +6,7 @@
 void display(const std::vector<std::string> *const v) {
     // (*v).at(0) = "Funny";
 
-    for (const auto& str: *v)
+    for (const auto &str: *v)
         std::cout << str << " ";
     std::cout << std::endl;
 

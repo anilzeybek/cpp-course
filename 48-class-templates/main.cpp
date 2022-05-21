@@ -4,13 +4,13 @@
 // Template classes are typically completely contained in header files
 // So, we would have the template class in Item.h and no Item.cpp file
 // would be used
-template <typename T>
+template<typename T>
 class Item {
-   private:
+private:
     std::string name;
     T value;
 
-   public:
+public:
     Item(std::string name, T value) : name{name}, value{value} {}
 
     std::string get_name() const { return name; }
@@ -18,7 +18,7 @@ class Item {
     T get_value() const { return value; }
 };
 
-template <typename T1, typename T2>
+template<typename T1, typename T2>
 struct My_Pair {
     T1 first;
     T2 second;
@@ -36,7 +36,7 @@ int main() {
               << item3.get_value().get_value() << std::endl;
 
 
-    My_Pair <std::string, int> p1 {"Anil", 22};
+    My_Pair<std::string, int> p1{"Anil", 22};
     std::cout << p1.first << " " << p1.second << std::endl;
     return 0;
 }

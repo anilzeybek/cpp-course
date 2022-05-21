@@ -4,7 +4,7 @@
 int main() {
     // By default, if file doesn't exists, it creates, and if exists, deletes the content
     // If std::ios::app given, appends instead of deleting content, still creates file if not exists
-    std::ofstream out_file{"../file.txt", std::ios::app}; 
+    std::ofstream out_file{"../file.txt", std::ios::app};
     if (!out_file) {
         std::cerr << "Error creating file" << std::endl;
         return 1;
@@ -23,8 +23,8 @@ int main() {
     std::cout << "\n==============\n" << std::endl;
 
 
-    std::ifstream poem {"../../42-read-file/poem.txt"};
-    std::ofstream copied_file {"../peom_copy.txt"};
+    std::ifstream poem{"../../42-read-file/poem.txt"};
+    std::ofstream copied_file{"../peom_copy.txt"};
 
     if (!poem) {
         std::cerr << "Error opening poem file" << std::endl;
@@ -36,10 +36,10 @@ int main() {
         return 1;
     }
 
-    while(std::getline(poem, line)) {
+    while (std::getline(poem, line)) {
         copied_file << line << std::endl;
     }
-    
+
     std::cout << "Copy finished" << std::endl;
 
     poem.close();

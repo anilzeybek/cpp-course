@@ -5,7 +5,7 @@
 int main() {
     std::cout << "\n========Account Class=======" << std::endl;
 
-    Account a1 {1000};
+    Account a1{1000};
     std::cout << a1 << std::endl;
 
     a1.deposit(500);
@@ -19,7 +19,7 @@ int main() {
 
     std::cout << "\n========Savings Account Class=======" << std::endl;
 
-    Savings_Account s1 {1000, 5.0};
+    Savings_Account s1{1000, 5.0};
     std::cout << s1 << std::endl;
 
     s1.deposit(1000);

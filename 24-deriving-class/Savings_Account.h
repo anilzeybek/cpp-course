@@ -8,9 +8,11 @@ public:
     double int_rate;
 
     Savings_Account();
+
     ~Savings_Account();
 
     void deposit(double amount);
+
     void withdraw(double amount);
 };
 

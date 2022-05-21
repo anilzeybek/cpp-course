@@ -4,9 +4,9 @@
 #include <vector>
 
 // Second arg of this function is a function that takes an int and returns void
-void forEach(const std::vector<int>& values,
-             const std::function<void(int)>& func) {
-    for (int value : values) func(value);
+void forEach(const std::vector<int> &values,
+             const std::function<void(int)> &func) {
+    for (int value: values) func(value);
 }
 
 int main() {

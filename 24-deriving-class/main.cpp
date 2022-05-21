@@ -9,7 +9,7 @@ int main() {
 
     std::cout << std::endl;
 
-    Account *p_acc {nullptr};
+    Account *p_acc{nullptr};
     p_acc = new Account();
     p_acc->deposit(1000);
     p_acc->withdraw(500);
@@ -23,7 +23,7 @@ int main() {
 
     std::cout << std::endl;
 
-    Savings_Account *p_sav_acc {nullptr};
+    Savings_Account *p_sav_acc{nullptr};
     p_sav_acc = new Savings_Account();
     p_sav_acc->deposit(1000);
     p_sav_acc->withdraw(500);

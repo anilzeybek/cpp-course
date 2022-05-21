@@ -7,7 +7,7 @@
 
 void display(const std::vector<int> &vec) {
     std::cout << "[";
-    for (const auto &i : vec) std::cout << i << " ";
+    for (const auto &i: vec) std::cout << i << " ";
     std::cout << "]" << std::endl;
 }
 
@@ -79,7 +79,9 @@ void test4() {
     std::cout << *it2 << std::endl;
 
     std::map<std::string, std::string> favorites{
-        {"Frank", "C++"}, {"Bill", "Java"}, {"James", "Haskell"}};
+            {"Frank", "C++"},
+            {"Bill",  "Java"},
+            {"James", "Haskell"}};
     auto it3 = favorites.begin();
     while (it3 != favorites.end()) {
         std::cout << it3->first << ": " << it3->second << std::endl;

@@ -26,7 +26,7 @@ int main() {
 
 
     std::cout << "\n==============\n" << std::endl;
-    
+
 
     std::ifstream in_file2;
     in_file2.open("../test2.txt");
@@ -52,7 +52,7 @@ int main() {
 
 
     // We can also open file just like that:
-    std::ifstream in_file3 {"../poem.txt"};
+    std::ifstream in_file3{"../poem.txt"};
 
     if (!in_file3) {
         std::cerr << "Problem opening file" << std::endl;

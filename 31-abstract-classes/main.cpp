@@ -46,7 +46,6 @@ public:
 };
 
 
-
 int main() {
     // Shape shape;  // This will not work because Shape is an abstract class
 

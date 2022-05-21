@@ -3,14 +3,18 @@
 
 class Mystring {
     friend bool operator==(const Mystring &lhs, const Mystring &rhs);
+
     friend Mystring operator-(const Mystring &obj);
+
     friend Mystring operator+(const Mystring &lhs, const Mystring &rhs);
 
 private:
     char *str;
 public:
     Mystring();
+
     Mystring(const char *s);
+
     Mystring(const Mystring &source); // Copy constructor
     Mystring(Mystring &&source); // Move constructor
     ~Mystring(); // Destructor
@@ -20,7 +24,9 @@ public:
 
 
     void display() const;
+
     int length() const;
+
     const char *get_str() const;
 };
 
