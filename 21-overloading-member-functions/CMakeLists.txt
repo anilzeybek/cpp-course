@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.17)
+cmake_minimum_required(VERSION 3.10)
 project(21_overloading_member_functions)
 
 set(CMAKE_CXX_STANDARD 14)
